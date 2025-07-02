@@ -24,7 +24,7 @@ public class Server {
 
         try{
             ServerSocket serverSocket = new ServerSocket(port);
-            serverSocket.setSoTimeout(10000);
+            serverSocket.setSoTimeout(15000);
             System.out.println("Server is listening on port: "+ port);
 
             while(true){
